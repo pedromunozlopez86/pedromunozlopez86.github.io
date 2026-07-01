@@ -10,9 +10,9 @@ Sitio estático sencillo para la página de usuario de GitHub Pages de **Pedro M
 
 ## Cómo editar el contenido
 
-1. Abre `/home/runner/work/pedromunozlopez86.github.io/pedromunozlopez86.github.io/index.html`.
+1. Abre `index.html`.
 2. Actualiza textos, enlaces o secciones según lo necesites.
-3. Si quieres ajustar colores, espaciados o layout, edita `/home/runner/work/pedromunozlopez86.github.io/pedromunozlopez86.github.io/styles.css`.
+3. Si quieres ajustar colores, espaciados o layout, edita `styles.css`.
 4. Guarda los cambios y súbelos a la rama `main` para publicarlos en GitHub Pages.
 
 ## Cómo publicar en GitHub Pages
