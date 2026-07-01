@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio profesional de Pedro Muñoz López, desarrollador web."
+    />
+    <title>Pedro Muñoz López | Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="hero">
+      <div class="container hero__content">
+        <p class="eyebrow">Portafolio profesional</p>
+        <h1>Pedro Muñoz López</h1>
+        <p class="hero__title">Desarrollador Web</p>
+        <p class="hero__description">
+          Creo experiencias web accesibles, rápidas y mantenibles, con foco en
+          producto, rendimiento y buenas prácticas de desarrollo.
+        </p>
+        <nav class="hero__actions" aria-label="Accesos principales">
+          <a class="button" href="#proyectos">Ver proyectos</a>
+          <a class="button button--secondary" href="#contacto">Contactar</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="section" id="proyectos" aria-labelledby="proyectos-title">
+        <div class="container">
+          <div class="section__heading">
+            <p class="eyebrow">Trabajo reciente</p>
+            <h2 id="proyectos-title">Proyectos</h2>
+          </div>
+          <div class="cards" role="list">
+            <article class="card" role="listitem">
+              <h3>Tienda online modular</h3>
+              <p>
+                Desarrollo de una experiencia e-commerce optimizada para móvil,
+                con arquitectura escalable y foco en conversión.
+              </p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Panel analítico interno</h3>
+              <p>
+                Dashboard accesible para seguimiento de métricas clave, pensado
+                para equipos de producto y negocio.
+              </p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Web corporativa internacional</h3>
+              <p>
+                Sitio multidioma con diseño responsive, contenido reusable y
+                rendimiento cuidado para SEO técnico.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="sobre-mi" aria-labelledby="sobre-mi-title">
+        <div class="container narrow">
+          <div class="section__heading">
+            <p class="eyebrow">Perfil</p>
+            <h2 id="sobre-mi-title">Sobre mí</h2>
+          </div>
+          <p>
+            Me especializo en construir interfaces claras y mantenibles,
+            colaborando con equipos para transformar requisitos en productos web
+            de calidad. Disfruto trabajando con HTML, CSS y JavaScript, cuidando
+            tanto la experiencia de usuario como la base técnica del proyecto.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contacto" aria-labelledby="contacto-title">
+        <div class="container narrow">
+          <div class="section__heading">
+            <p class="eyebrow">Hablemos</p>
+            <h2 id="contacto-title">Contacto</h2>
+          </div>
+          <ul class="contact-list">
+            <li>
+              Email:
+              <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/pedromunozlopez86">github.com/pedromunozlopez86</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="current-year">2026</span> Pedro Muñoz López. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
